@@ -21,17 +21,87 @@
     <section class="container-fluid slider d-flex justify-content-center align-items-center">
       <h1 class="display-1">rockFox</h1>
     </section>
-    <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-    <div class="container">
-      
+
+    <!-- barra de menu de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/rf1.svg" height="30" alt="logo rf">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-danger active">Home</button><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Servicios</button></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><button type="button" class="btn btn-danger dropdown-toggle">Tours</button>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Day Tours</button></a>
+          </li>  
+        </ul>
+        <div class="d-flex flex-row justify-content-center">
+            <a href="#" class="btn btn-outline-danger mr-2">F</a>
+            <a href="#" class="btn btn-outline-info">Y</a>
+          </div>
+      </div>
+    </nav>
+    
+    <!-- CARDS -->
+    <div class="container my-5 py-5">
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/card1.jpg" class="card-img-top" alt="card-1">
+          <div class="card-body">
+            <h5 class="card-title">Imgs Responsive</h5>
+            <p class="card-text">Si al cambiar de pantalla la imagen no cambia, entonces puedes usar: <strong>.img-fluid</strong>.</p>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/card2.jpg" class="card-img-top" alt="card-2">
+          <div class="card-body">
+            <h5 class="card-title">¿Dónde Agregar?</h5>
+            <p class="card-text">Agregar <strong>.img-fluid</strong>. a la clase de img.</p>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/card3.jpg" class="card-img-top" alt="card-3">
+          <div class="card-body">
+            <h5 class="card-title">¿Dónde encuentro el Código?</h5>
+            <p class="card-text">El código se encuentra en: content → images.</p>
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+      </div>
     </div>
-      
+    <!--  fin CARDS -->
+    
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, soy Responsive!</h1>
+      <p class="lead">Es mejor Poner el Jumbotron directamente con sus códigos, es decir sin ningun '.container'. Además es responsive en si misma</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <!-- fin JUMBOTRON -->
+    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
