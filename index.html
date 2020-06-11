@@ -59,17 +59,38 @@
           </div>
       </div>
     </nav>
+    
+    <!-- CARDS -->
     <div class="container">
-      <p> se puede agregar características especiales a <strong>navbar</strong>. en todo caso explorar en: componentes → barra de navegacion. </p>
-      <p>Podemos ponerlo en Container, sino directamente que hará que aparezca full de lado a lado</p>
-      <p>Ahora el fondo de las barras de navegacion vienen: <strong>navbar navbar-dark bg-dark/navbar navbar-dark bg-primary"/navbar navbar-light" style="background-color: #e3f2fd;"</strong> el ultimo es un fondo personalizado.</p>
-      <p>Para poner los botones F y Y se utiliza la clase: <strong>mr-auto</strong> y se etiqueta a la caja hermana anterior para que esta pueda enpujarla hacia derecha de la caja contenedora</p>
-      <p>En pantallas pequeñas (hemos colocado en md) aparece el el icono del menu SANDWICH, clicando sale el menu en el extremo izquierdo, quisieramos que se pong al centro, para ello hay una clase <strong>text-center</strong> que se pone al div que lo contiene</p>
-      <p>Una vez el el menu de sanwich cliquea en el medio, los Botones F y Y continuan a l iauierda, pero queremos que tambien se centren en la misma columna de los otros, para ello agregamosa su contenedor la clase: <strong>d-flex flex-row justify-content-around</strong> o si uno quiere juntos camabiar around por center, pero en este caso hay que separarlos con <strong>mr-2</strong> al 1er ancla</p>
-      <p>Si queremos que el texto del menu esten tambien centrados, le agregamos a su caja contenedora <strong>ml-auto</strong></p>
-      <p>para que quede el navbar siempre <strong>fixed-top</strong>en la parte de arriba o que este siempre arriba una alcanzamos el navbar  <strong>sticky-top</strong>. Se pega en la etiqueta NAV</p>
+      <div class="card-deck">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <!--  fin CARDS -->
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
