@@ -93,12 +93,14 @@
     
     <!-- JUMBOTRON -->
     <div class="jumbotron">
-      <h1 class="display-4">Hello, soy Responsive!</h1>
-      <p class="lead">Es mejor Poner el Jumbotron directamente con sus códigos, es decir sin ningun '.container'. Además es responsive en si misma</p>
-      <hr class="my-4">
-      <div class="d-flex justify-content-between align-items-center">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <div class="container">
+        <h1 class="display-4">Hello, soy Responsive!</h1>
+        <p class="lead">Es mejor Poner el Jumbotron directamente con sus códigos, es decir sin ningun '.container'. Además es responsive en si misma</p>
+        <hr class="my-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
       </div>
     </div>
     <!-- fin JUMBOTRON -->
@@ -109,6 +111,7 @@
       <p>Para ponerlos a ambos extremos debemos utilizar <strong>justify-content-between</strong></p>
       <p>Se le encuentra en utilities → flex → justify-content.</p>
       <p>Pero el parrafo y el boton no parecen estar alieneados, para ello lo alineamos con <strong>align-items-center</strong></p>
+      <p>Deseo que el fondo del jumbotron sea fluido, pero contenido (texto) este del container para ello todo el contenido debe encerrarce dentro de una caja <strong>.container</strong>. esa caja '.container' debe de estar dentro de la caja <strong>div class'jumbotron'</strong>.</p>
     </div>
 
 
