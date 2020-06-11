@@ -7,33 +7,81 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <title>Contenedor</title>
-    <style>
-      .slider{
-        background: url('img/mapi.jpg');
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-      }
-    </style>
+
+    <title>Formulario</title>
   </head>
   <body>
-    <section class="container-fluid slider d-flex justify-content-center align-items-center">
-      <h1 class="display-1">rockFox</h1>
-    </section>
-    <div class="container">
-      <p>Para trabajar con tipografia buscar en Contendio y luego Tipografia. Alli encontramos: mostrar encabezados: class="display-1" </p>
-      <p><strong>.d-flex</strong> es la etiqueta MÁGICA que transforma un elemento (caja) en FLEXBOX. Se le aplica al elemento Padre. </p>
-      <p>Cualquier elemento de bloque (que no tiene la etiqueta d-flex) siempre se va ha desplazar hacia abajo, como en una mis ma columna. Esto viene por defecto</p>
-      <p>Pero con <strong>d-flex</strong> los 2 h1 se ponene de lado a lado</p>
-      <p>Para centrar vertical y horizontalmente el h1 debemos aplicar 1ro<strong>justify-content-center</strong>al contenedor padre y 2do aplicar <strong>align-items-center</strong> al mismo</p>
+    <h1>Formulario</h1>
+    <!-- FORMULARIO -->
+    <div class="container py-5">
+      <form>
+        
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="validationCustom01">First Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="validationCustom02">Last Name</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Nationality</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
     </div>
+    <!-- fin FORMULARIO -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
