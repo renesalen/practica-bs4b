@@ -19,13 +19,13 @@
       <div class="row">
         <div class="col-6">
           <form action="">
-            <div class="form-group">
-              <label for="">Nombre:</label>
-              <input type="text" placeholder="Your name" class="form-control">
+            <div class="form-group row">
+              <label for="" class="col-4 col-form-label">Nombre:</label>
+              <input type="text" placeholder="Your name" class="form-control col-8">
             </div>
-            <div class="form-group">
-              <label for="">Email:</label>
-              <input type="email" placeholder="your email" class="form-control">
+            <div class="form-group row">
+              <label for="" class="col-4 col-form-label">Email:</label>
+              <input type="email" placeholder="your email" class="form-control col-8">
             </div>
             <div class="form-group">
               <button class="btn btn-danger">Send</button>
@@ -40,6 +40,9 @@
       <p>Este formulario ocupa el 100% del ancho, pero podemos hacer que ocupe una mitad, la mitad izquierda de modo que la otra podría servir para poner poner un mapa. Para ello ponenos todo <strong>form action=''</strong> dentro de un <strong>div</strong> al que le aplicamos la clase <strong>.row</strong></p>
       <p>Una vez más selecionamos <strong>form action=''</strong> le ponemos dentro de un <strong>div</strong> y a esta 'div' le aplicamos la clase <strong></strong>col-6</p>
       <p>Entonces se podría colocar un mapa de contacto o alguna otra relacionada </p>
+      <h3>columnas dentro de columnas</h3>
+      <p>A cada <strong>form-group</strong> le palicamos la clase 'row'</p>
+      <p>podemos dividir este espacio de 6 en 12 columnas. Para ello le vamos asignar al 'label' de nombre la clase 'col-2' y al 'input' le asignamos la clase 'col-10'. Además al 'label' se le aplica la clase 'col-form-label'. Esto en cada uno de los 'form-group'.</p>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
