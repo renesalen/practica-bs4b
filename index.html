@@ -16,23 +16,31 @@
       <h3 class="text-upper-case text-center">Formulario de contacto</h3>
       <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      <form>
-        <div class="form-group">
-          <label for="">Nombre:</label>
-          <input type="text" placeholder="Your name" class="form-control">
+      <div class="row">
+        <div class="col-6">
+          <form action="">
+            <div class="form-group">
+              <label for="">Nombre:</label>
+              <input type="text" placeholder="Your name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">Email:</label>
+              <input type="email" placeholder="your email" class="form-control">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-danger">Send</button>
+            </div>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="">Email:</label>
-          <input type="email" placeholder="your email" class="form-control">
-        </div>
-        <div class="form-group">
-          <button class="btn btn-danger">Send</button>
-        </div>
-      </form>
+      </div>
     </section>
     
     <!-- fin FORMULARIO -->
-
+    <div class="container">
+      <p>Este formulario ocupa el 100% del ancho, pero podemos hacer que ocupe una mitad, la mitad izquierda de modo que la otra podría servir para poner poner un mapa. Para ello ponenos todo <strong>form action=''</strong> dentro de un <strong>div</strong> al que le aplicamos la clase <strong>.row</strong></p>
+      <p>Una vez más selecionamos <strong>form action=''</strong> le ponemos dentro de un <strong>div</strong> y a esta 'div' le aplicamos la clase <strong></strong>col-6</p>
+      <p>Entonces se podría colocar un mapa de contacto o alguna otra relacionada </p>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
