@@ -14,22 +14,21 @@
     <!-- FORMULARIO -->
     <section class="container">
       <h3>Formulario de contacto</h3>
-      <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+      <p class="lead text-center">En la nueva version de bs 4.5 los códigos para ocultar algunas partes en ciertos tamaños de pantalla ha cambiado. Antes se utilizaba por ejm: 'hidden-sm-down', pero ahora la clase es <strong>.d-sm-none</strong> y solo afecta a ese tamaño en específico. <strong>d-none</strong> es para el tamaño 'xs'.</p>
 
-      <form action class="form-inline">
-        <div class="form-goup">
-          <label for="">Nombre</label>
-          <input type="text" name="" placeholder="Ingrese su nombre" class="form-control">
+      <form action="" class="form-inline justify-content-center flex-column flex-md-row">
+        <div class="form-group my-2">
+          <label for="" class="mx-2 d-none d-sm-none">Nombre</label>
+          <input type="text" placeholder="Ingresa tu nombre" class="form-control">
         </div>
-        <div class="form-goup">
-          <label for="">Apellido</label>
-          <input type="text" name="" placeholder="Ingrese su apellido" class="form-control">
+        <div class="form-group my-2">
+          <label for="" class="mx-2 d-none d-sm-none">Apellido</label>
+          <input type="text" placeholder="Ingresa tu apellido" class="form-control">
         </div>
-        <div class="form-goup">
-          <button type="submit" class="btn btn-danger">Enviar</button>
+        <div class="form-group mx-2 my-2">
+          <button class="btn btn-danger" type="submit">Enviar</button>
         </div>
+      </form>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
